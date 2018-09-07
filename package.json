@@ -1,0 +1,39 @@
+{
+  "name": "docz-plugin-react-native",
+  "version": "0.11.0",
+  "description": "Plugin that allow you to use React Native with docz",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.m.js",
+  "typings": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "libundler watch --ts -e all",
+    "build": "libundler build --ts -e all --c",
+    "fix": "run-s fix:*",
+    "fix:prettier": "prettier \"src/**/*.{ts,tsx}\" --write",
+    "fix:tslint": "tslint --fix --project .",
+    "tslint": "tslint --project ."
+  },
+  "dependencies": {
+    "docz-core": "^0.11.0",
+    "react-art": "^16.5.0",
+    "react-native-web": "^0.8.9"
+  },
+  "devDependencies": {
+    "libundler": "^1.7.1",
+    "lint-staged": "^7.2.2",
+    "npm-run-all": "^4.1.3",
+    "prettier": "^1.14.2",
+    "trash-cli": "^1.4.0",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "^2.9.2"
+  }
+}
