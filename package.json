@@ -23,8 +23,12 @@
   },
   "dependencies": {
     "docz-core": "^0.11.2",
-    "react-art": "^16.5.0",
+    "react-art": "^16.5.1",
+    "react-dom": "^16.5.1",
     "react-native-web": "^0.9.6"
+  },
+  "peerDependencies": {
+    "react": ">=16.5.1"
   },
   "devDependencies": {
     "libundler": "^1.7.1",
