@@ -1,3 +1,10 @@
+# ⚠️ Deprecated
+
+This plugin is deprecated since the version [v0.12.15](https://github.com/pedronauck/docz/releases/tag/v0.12.15) that support React Native nativelly.
+You can see the [example folder](https://github.com/pedronauck/docz/tree/master/examples/react-native) to know more information about how to use.
+
+---
+
 # docz-plugin-react-native
 
 Use your React Native components inside docz
